@@ -1,4 +1,6 @@
 data/dataset/
+data/res/
+venv
 __pycache__/
 cache/
 pretrain/

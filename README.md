@@ -29,6 +29,12 @@ It will generate a nms.so and a bbox.so in current folder.
 python ./main/demo.py
 ```
 ***
+#video 
+- results will be saved in data/res, and run video in the root
+```shell
+python ./main/video.py --video_path video.mp4
+```
+***
 # training
 ## prepare data
 - First, download the pre-trained model of VGG net and put it in data/vgg_16.ckpt. you can download it from [tensorflow/models](https://github.com/tensorflow/models/tree/1af55e018eebce03fb61bba9959a04672536107d/research/slim)
