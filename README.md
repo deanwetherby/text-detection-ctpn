@@ -11,6 +11,15 @@ Scene text detection based on ctpn (connectionist text proposal network). It is 
 - [x] oriented text connector
 - [x] BLSTM
 ***
+# virtual environment
+from the root text-detection-ctpn folder, create a virtual environment
+```shell
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ pip install --upgrade pip
+(venv) $ pip install -r requirements.txt
+```
+***
 # setup
 nms and bbox utils are written in cython, hence you have to build the library first.
 ```shell
@@ -30,7 +39,7 @@ python ./main/demo.py
 ```
 ***
 # video 
-- results will be saved in data/res, and run video in the root
+- results will be saved in data/res on a per frame basis, and run video.py from the root
 ```shell
 python ./main/video.py --video_path video.mp4
 ```
