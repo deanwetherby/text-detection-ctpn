@@ -29,7 +29,7 @@ It will generate a nms.so and a bbox.so in current folder.
 python ./main/demo.py
 ```
 ***
-#video 
+# video 
 - results will be saved in data/res, and run video in the root
 ```shell
 python ./main/video.py --video_path video.mp4
